@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="styel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+<body>
+
+    <nav>
+        <ul class="nav">
+            <img class="logo" src="logo.jpg" alt="logo">
+            <li><h1><b>School Project Management System</b></h1></li>
+           
+        </ul>
+    </nav>
+   <div class="topnav" id="myTopnav">
+    <a href="#project" class="active">Project</a>
+    <a href="#report">Report</a>
+    <a href="#schools">Schools</a>
+    <a href="#status">Status</a>
+    <a href="#meeting">Meeting</a>
+    <a href="#logout">Logout</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+
+<br><br>
+
+<button class="btn">Add Projects</button>
+
+<br><br><br><br><br>
+
+    <div style="overflow-x:auto ;">
+        <table class="center">
+        
+            <tr>
+                <th>Sr. No.</th>
+                <th>Project Name</th>
+                <th>PO Name</th>
+                <th>SMC Name</th>
+                <th>Area</th>
+                <th>Document</th>
+                <th>Edit</th>
+                <th>Delete</th>
+                
+                
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Griffin</td>
+                <td>dsdsd</td>
+                <td>new</td>
+                <td>hh</td>
+                <td><button class="bt-table">view</button></td>
+                <td>hgjhgj</td>
+                <td><i class="material-icons" style="font-size:35px;color:red">delete</i></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Griffin</td>
+                <td>ssdd</td>
+                <td>hgjhgj</td>
+                <td>hgjhgj</td>
+                <td><button class="bt-table">view</button></td>
+                <td>hgjhgj</td>
+                <td><i class="material-icons" style="font-size:35px;color:red">delete</i></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Swanson</td>
+                <td>dsdad</td>
+                <td>hgjhgj</td>
+                <td>hgjhgj</td>
+                <td><button class="bt-table">view</button></td>
+                <td>hgjhgj</td>
+                <td><i class="material-icons" style="font-size:35px;color:red">delete</i></td>
+            </tr>
+          
+        
+        
+        </table>
+        </div>
+        <br><br><br><br><br>
+
+<button class="btnn" >Add Projects</button>
+
+
+
+        <br><br><br><br><br><br>
+
+        <footer>
+            <div class="width-fixed">
+            
+                <a href="mailto:pixelstat@example.com" >Copyright © 2023 Pixelstat</a>
+        </div>
+        <div id="pp">
+         <a href="#">Privacy Policy</a>
+        </div>
+        </footer>
+
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+
+</body>
+</html>
